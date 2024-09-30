@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context=".actividades.ui.ajustes.AjustesFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorWhite"
+                android:orientation="vertical"
+                card_view:cardCornerRadius="8dp"
+                card_view:cardElevation="2dp"
+                card_view:cardPreventCornerOverlap="false"
+                card_view:cardUseCompatPadding="true"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        card_view:cardCornerRadius="50dp"
+                        card_view:cardPreventCornerOverlap="false">
+
+                        <ImageView
+                            android:id="@+id/logo"
+                            android:layout_width="100sp"
+                            android:layout_height="100sp"
+                            android:scaleType="centerCrop"
+                            android:src="@mipmap/ic_launcher_logo" />
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="Click para cambiar tu foto de perfil" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"></LinearLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp">
+
+                        <AutoCompleteTextView
+                            android:id="@+id/et1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:layout_marginBottom="6dp"
+
+                            android:drawableLeft="@drawable/ic_outline_person_24"
+                            android:drawablePadding="8dp"
+                            android:hint="Nombre"
+                            android:inputType="text"
+                            android:maxLines="1"
+                            android:padding="8dp"
+                            android:singleLine="true" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp">
+
+                        <AutoCompleteTextView
+                            android:id="@+id/et2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:layout_marginBottom="6dp"
+                            android:drawableLeft="@drawable/ic_outline_person_24"
+
+                            android:drawablePadding="8dp"
+                            android:hint="Apellido"
+                            android:inputType="text"
+                            android:maxLines="1"
+                            android:padding="8dp"
+                            android:singleLine="true" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp">
+
+                        <AutoCompleteTextView
+                            android:id="@+id/et3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+
+                            android:drawableLeft="@drawable/ic_outline_person_24"
+                            android:drawablePadding="8dp"
+                            android:hint="Nombre de usuario"
+                            android:inputType="text"
+                            android:maxLines="1"
+                            android:padding="8dp"
+                            android:singleLine="true" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp">
+
+                        <AutoCompleteTextView
+                            android:id="@+id/et4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+
+                            android:drawableLeft="@drawable/ic_outline_home_24"
+                            android:drawablePadding="8dp"
+                            android:hint="Calle y número"
+                            android:inputType="text"
+                            android:maxLines="1"
+                            android:padding="8dp"
+                            android:singleLine="true" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp">
+
+                        <AutoCompleteTextView
+                            android:id="@+id/et5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+
+                            android:drawableLeft="@drawable/ic_outline_home_24"
+                            android:drawablePadding="8dp"
+                            android:hint="Código postal"
+                            android:inputType="text"
+                            android:maxLines="1"
+                            android:padding="8dp"
+                            android:singleLine="true" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp">
+
+                        <AutoCompleteTextView
+                            android:id="@+id/et6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+
+                            android:drawableLeft="@drawable/ic_outline_location_city_24"
+                            android:drawablePadding="8dp"
+                            android:hint="Ciudad"
+                            android:inputType="text"
+                            android:maxLines="1"
+                            android:padding="8dp"
+                            android:singleLine="true" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp">
+
+                        <AutoCompleteTextView
+                            android:id="@+id/et7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+
+                            android:drawableLeft="@drawable/ic_outline_phone_android_24"
+                            android:drawablePadding="8dp"
+                            android:hint="Teléfono"
+                            android:inputType="text"
+                            android:maxLines="1"
+                            android:padding="8dp"
+                            android:singleLine="true" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp">
+
+                        <AutoCompleteTextView
+                            android:id="@+id/et8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+
+                            android:drawableLeft="@drawable/ic_outline_group_24"
+                            android:drawablePadding="8dp"
+                            android:hint="Equipo"
+                            android:inputType="text"
+                            android:maxLines="1"
+                            android:padding="8dp"
+                            android:singleLine="true" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <RadioGroup
+                        android:id="@+id/toggle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/control_switch_background_border"
+                        android:checkedButton="@+id/rb1"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/rb1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginBottom="3dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/control_switch_background_selector_middle"
+                            android:button="@null"
+                            android:fontFamily="sans-serif-medium"
+                            android:gravity="center"
+                            android:paddingTop="16dp"
+                            android:paddingBottom="16dp"
+                            android:text="Hombre"
+                            android:textColor="@color/control_switch_color_selector" />
+
+                        <RadioButton
+                            android:id="@+id/rb2"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginBottom="3dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/control_switch_background_selector_middle"
+                            android:button="@null"
+                            android:fontFamily="sans-serif-medium"
+                            android:gravity="center"
+                            android:paddingTop="16dp"
+                            android:paddingBottom="16dp"
+                            android:text="Mujer"
+                            android:textColor="@color/control_switch_color_selector" />
+                    </RadioGroup>
+
+                    <Button
+                        android:id="@+id/btn1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:layout_marginBottom="16dp"
+                        android:background="@drawable/bg_button"
+                        android:text="Guardar"
+                        android:textColor="#fff"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="32dp"
+                        android:gravity="center"
+                        android:text="Cerrar sesión"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18dp"
+                        android:textStyle=""></TextView>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

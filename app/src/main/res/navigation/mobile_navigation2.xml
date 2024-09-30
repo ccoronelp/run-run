@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.searpe.run_run.actividades.ui.run.RunFragment"
+        android:label="¿Que evento empezar?"
+        tools:layout="@layout/fragment_run" />
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.searpe.run_run.actividades.ui.competencias.CompetenciasFragment"
+        android:label="Run Run"
+        tools:layout="@layout/fragment_competencias" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.searpe.run_run.actividades.ui.ajustes.AjustesFragment"
+        android:label="@string/title_ajustes"
+        tools:layout="@layout/fragment_ajustes" />
+</navigation>

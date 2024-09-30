@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@color/colorWhite"
+    tools:context=".actividades.ui.run.RunFragment">
+
+    <ListView
+        android:id="@+id/lv1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:textColor="@color/gray_btn_bg_color"
+        android:textSize="20dp"
+        android:text="No está registrado para ningún maratón. Revise nuestras maratones activas, por favor"
+        android:textStyle="bold">
+
+    </TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

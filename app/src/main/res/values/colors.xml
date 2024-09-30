@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0083DA</color>
+
+    <color name="colorPrimaryPress">#004F81</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGrey">#5b5b5b</color>
+    <color name="colorGreyL">#A7A7A7</color>
+    <color name="colorLightGrey">#eFeFeF</color>
+    <color name="colorBlueURL">#4444EE</color>
+    <color name="selected">#f1c40f</color>
+    <color name="btn_clr">#e67e22</color>
+    <color name="operator_btn_clr">#3498db</color>
+    <color name="green">#2ecc71</color>
+    <color name="blue">#FF005a9c</color>
+    <color name="lightBlue">#ff6691c4</color>
+    <color name="lighterBlue">#ffcdd8ec</color>
+    <color name="controlBackground">#ffffffff</color>
+
+</resources>

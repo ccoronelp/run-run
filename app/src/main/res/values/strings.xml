@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RunRun</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_eventos">Eventos</string>
+    <string name="title_run">Empezar ahora</string>
+    <string name="title_ajustes">Ajustes</string>
+    <string name="title_activity_run_evento">RunEvento</string>
+</resources>
