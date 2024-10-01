@@ -1,19 +1,11 @@
 <div align="center">
 	<br>
-  <p><a href="https://mifi.no/losslesscut/"><img src="src/renderer/src/icon.svg" width="120" alt="LosslessCut" /></a></p>
-  <p><b>LosslessCut</b></p>
-  The swiss army knife of lossless video/audio editing
+  <p><a href="#"><img src="" width="120" alt="LosslessCut" /></a></p>
+  <p><b>Run Run</b></p>
+  La app definitiva para maratones
 	<br>
   <img src="https://github.com/mifi/lossless-cut/workflows/Build/release/badge.svg" />
-  <a href="https://paypal.me/mifino/usd"><img src="https://img.shields.io/badge/Donate-PayPal-green.svg" /></a> <a href="https://github.com/mifi/lossless-cut#download"><img src="https://img.shields.io/github/v/release/mifi/lossless-cut" /></a> <a href="https://discord.gg/fhnEREfUJ3"><img src="https://img.shields.io/discord/986051448385183804" /></a> <a href="https://twitter.com/losslesscut"><img src="https://img.shields.io/twitter/follow/losslesscut?label=Twitter&style=social" alt="Twitter"></a>
-	<br>
-	<br>
-  <a href="https://mifi.no/thanks/">Thanks to my supporters</a> and everyone who purchased LosslessCut!
-	<br>
-	<br>
-  <p align="center"><img src="main_screenshot.jpg" width="600" alt="screenshot" /></p>
-	<br>
-	<br>
+
 </div>
 
 
