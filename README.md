@@ -20,7 +20,7 @@ Run run es una aplicación en Android que permite crear eventos de maraton y con
 Descarga el APK de Run Run desde el siguiente enlace
 - [Google Drive Link](https://drive.google.com/file/d/149W9KjSMQLioAObxpmrPT4SQ-ZvqNZfY/view?usp=sharing)
 - [One Drive link](https://1drv.ms/u/s!AiJM_y7pjzR4lkXmVzDBJ3Y0Nfei?e=z5hwo8)
-- [Git Direct Link](app Run.apk)
+- [Git Direct Link](/app_Run.apk)
 
 ## Autores
 - José Coronel
